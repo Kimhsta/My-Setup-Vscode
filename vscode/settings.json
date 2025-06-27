@@ -1,0 +1,63 @@
+{
+  // ⚙️ Editor & Formatting
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'DankMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.glyphMargin": true,
+  "files.autoSave": "afterDelay",
+  "files.associations": {
+    "*.py": "python"
+  },
+
+  // 🚀 Run Code
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  // 🔧 Workspace Trust & Telemetry
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+
+  // 🧑‍💻 Git
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  // 🎨 Theme & UI
+  "workbench.statusBar.visible": true,
+  "workbench.editor.showTabs": "single",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "hidden",
+  "window.titleBarStyle": "native",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.empty.hint": "hidden",
+
+  // 🌐 Live Server (if used)
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  // 🧪 Experimental UI
+  "window.density.editorTabHeight": "default",
+  "window.autoDetectColorScheme": true,
+
+  // 🌐 HTTP
+  "http.experimental.systemCertificatesV2": true,
+
+  // ⚡️ Formatters
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // 💼 CMake
+  "cmake.configureOnOpen": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "top",
+  "chat.commandCenter.enabled": false,
+  "workbench.preferredLightColorTheme": "Catppuccin Latte",
+  "database-client.autoSync": true,
+  "window.customTitleBarVisibility": "never",
+  "workbench.iconTheme": "catppuccin-perfect-latte",
+  "workbench.panel.showLabels": false
+}
